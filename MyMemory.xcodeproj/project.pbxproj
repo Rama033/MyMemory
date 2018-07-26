@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		C659D029210990430065836A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C659D028210990430065836A /* AppDelegate.swift */; };
-		C659D02B210990430065836A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C659D02A210990430065836A /* ViewController.swift */; };
 		C659D02E210990430065836A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C659D02C210990430065836A /* Main.storyboard */; };
 		C659D031210990430065836A /* MyMemory.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C659D02F210990430065836A /* MyMemory.xcdatamodeld */; };
 		C659D033210990440065836A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C659D032210990440065836A /* Assets.xcassets */; };
@@ -18,7 +17,6 @@
 /* Begin PBXFileReference section */
 		C659D025210990430065836A /* MyMemory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMemory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C659D028210990430065836A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C659D02A210990430065836A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C659D02D210990430065836A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C659D030210990430065836A /* MyMemory.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyMemory.xcdatamodel; sourceTree = "<group>"; };
 		C659D032210990440065836A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,7 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				C659D028210990430065836A /* AppDelegate.swift */,
-				C659D02A210990430065836A /* ViewController.swift */,
 				C659D02C210990430065836A /* Main.storyboard */,
 				C659D032210990440065836A /* Assets.xcassets */,
 				C659D034210990440065836A /* LaunchScreen.storyboard */,
@@ -139,7 +136,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C659D031210990430065836A /* MyMemory.xcdatamodeld in Sources */,
-				C659D02B210990430065836A /* ViewController.swift in Sources */,
 				C659D029210990430065836A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +282,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MyMemory/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +300,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MyMemory/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
